@@ -1,0 +1,77 @@
+PODS:
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - PINCache (3.0.1-beta.8):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.8)
+    - PINCache/Core (= 3.0.1-beta.8)
+  - PINCache/Arc-exception-safe (3.0.1-beta.8):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.8):
+    - PINOperation (~> 1.1.1)
+  - PINOperation (1.1.2)
+  - PINRemoteImage/Core (3.0.0):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0):
+    - PINCache (= 3.0.1-beta.8)
+    - PINRemoteImage/Core
+  - Texture (3.0.0-rc.2):
+    - Texture/AssetsLibrary (= 3.0.0-rc.2)
+    - Texture/Core (= 3.0.0-rc.2)
+    - Texture/MapKit (= 3.0.0-rc.2)
+    - Texture/Photos (= 3.0.0-rc.2)
+    - Texture/PINRemoteImage (= 3.0.0-rc.2)
+    - Texture/Video (= 3.0.0-rc.2)
+  - Texture/AssetsLibrary (3.0.0-rc.2):
+    - Texture/Core
+  - Texture/Core (3.0.0-rc.2)
+  - Texture/IGListKit (3.0.0-rc.2):
+    - IGListDiffKit (~> 4.0)
+    - IGListKit (~> 4.0)
+    - Texture/Core
+  - Texture/MapKit (3.0.0-rc.2):
+    - Texture/Core
+  - Texture/Photos (3.0.0-rc.2):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0-rc.2):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0-rc.2):
+    - Texture/Core
+
+DEPENDENCIES:
+  - Texture (from `https://github.com/varyP/Texture.git`, branch `master`)
+  - Texture/IGListKit (from `https://github.com/varyP/Texture.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - IGListDiffKit
+    - IGListKit
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+
+EXTERNAL SOURCES:
+  Texture:
+    :branch: master
+    :git: https://github.com/varyP/Texture.git
+
+CHECKOUT OPTIONS:
+  Texture:
+    :commit: 0c6243c4a74089e0fa875809b594725ea8edc9bb
+    :git: https://github.com/varyP/Texture.git
+
+SPEC CHECKSUMS:
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  PINCache: 534fd41d358d828dfdf227a0d327f3673a65e20b
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PINRemoteImage: e2b89e19fb6e77ffc099f9d9f3b3fe1745e3f9f9
+  Texture: c76ffab78099e5dce21b1455c533da078595910d
+
+PODFILE CHECKSUM: 8ca29a7c4485cd7ae28782354a6419f4134e2c29
+
+COCOAPODS: 1.9.3
